@@ -1,5 +1,5 @@
 # SimpleMemoryGame
-Sample Memory Game using HTML,CSS and native Js <br />
+Simple Memory Game using HTML,CSS and native Js <br />
  @Author : A.ABUFARES <br />
  @Email:a.abufares@outlook.com <br />
  
