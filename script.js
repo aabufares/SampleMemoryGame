@@ -38,6 +38,9 @@ function flip(i) {
                         divCompleted.style.display = "block";
                         document.getElementById("sndCompleted").play();
                     }
+                } else {
+                    select1 = null;
+                    select2 = null;
                 }
             }, 1000);
             divCount.innerText = ++count;
