@@ -1,0 +1,36 @@
+﻿<!-- 
+ @Author : A.ABUFARES 
+ @Email:a.abufares@outlook.com  
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <title>Simple Memory Game</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div style="position: fixed; z-index: 1; top: 15%; right: 29%; display:none" id="divCompleted">
+                <img src="giphy.gif" style="display:block;cursor:pointer" onclick="location.reload()" />
+            </div>
+        </div>
+        <div class="row" id="root">
+        </div>
+        <div class="row">
+            <div id="count" style=" font-size: 30px; color: #c15d5d;text-align:center;width:100%">0</div>
+        </div>
+    </div>
+    <!--Sound Notifications -->
+    <audio controls="controls" id="sndCorrect" style="display:none">
+        <source src="audio/correct.wav" />
+    </audio>
+    <audio controls="controls" id="sndCompleted" style="display:none">
+        <source src="audio/WUHOHO.mp3" />
+    </audio>
+    <!--Sound Notifications -->
+    <script src="script.js"></script>
+</body>
+</html>
